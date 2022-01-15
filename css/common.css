@@ -6,10 +6,10 @@
     background-size: contain;
 }
 .deliveryDroneImage{
-    background: url(../images/rc_car.png);
+    background: url(../images/rc_car_endeavour.png);
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
+    background-position-x: center;
+    background-position-y: top;
     background-size: contain;
 }
 .rcPlaneImage{

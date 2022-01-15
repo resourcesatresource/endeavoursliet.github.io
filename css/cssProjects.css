@@ -22,100 +22,6 @@
     margin: 0;
 }
 
-/* NAVIGATION */
-.topNav{
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.topNav .emptySpace25{
-    width: 25%;
-    height: 100%;
-}
-.endeavourLogo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    padding: 0px 50px;
-}
-.endeavourLogo img{
-    width: 100%;
-    height: 100%;
-}
-.topNav ul{
-    list-style: none;
-}
-.navComponent a{
-    text-decoration: none;
-    color: #A00000;
-}
-ul li{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    color: #A00000;
-
-
-}
-.navArray{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    line-height: 100px;
-
-}
-/* NAVIGATION */
-
-/* INTRODUCTION */
-.intro{
-    width: 100%;
-    height: 726px;
-    background: url(../images/introBackground.webp);
-    background: #000;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.endeavourText{
-    font-family: Smile and Wave;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 74px;
-    text-align: center;
-    letter-spacing: 0.795em;
-    color: #FFFFFF;
-
-    margin-right: -0.795em;
-    text-align:right;
-}
-.endeavourTagline{
-    font-family: DESIGNER;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.27em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    
-    margin-right: -0.27em;
-    text-align:right;
-}
-
 /* CONTENT NAVIGATION */
 section.contentNavigation{
     width: 100%;
@@ -302,7 +208,7 @@ section.rcPlane{
 
 }
 .rcPlaneImage{
-    background: url(../images/delivery-drone.png);
+    background: url(../images/rc_plane.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
@@ -345,103 +251,6 @@ section.rcPlane{
     color: #0E0D0D;
 }
 
-/* FOOTER SECTION */
-
-section.footer{
-    /* 0 */
-    width: 100%;
-    height: 416px;
-    background: #aaa;
-
-    display: flex;
-    
-}
-.footer .connectionFooter{
-    /* 0 */
-    width: 45%;
-    height: 100%;
-    background: #A00000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-.connectionFooter .connectionFooterOne{
-    width: 50%;
-    height: 100%;
-
-}
-.connectionFooter .connectionFooterTwo{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-}
-.connectionFooterTwo .footerMainText{
-/* 1 */
-    font-family: Smile and Wave;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    letter-spacing: 0.1em;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.connectionFooterTwo .footerTagText{
-/* 1 */
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 27px;
-color: #FFFFFF;
-}
-
-.connectionFooterTwo .footerSocialIcons{
-    /* Color For Icons */
-    color: #fff; 
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.footer .menuFooter{
-    width: 55%;
-    height: 100%;
-    background: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.menuFooter .menuFooterContainer{
-    width: 80%;
-    height: 60%;
-}
-table.menuFooterContainer tr{
-    width: 100%;
-    height: 20%;
-}
-table.menuFooterContainer tr th,td{
-    font-size: 18px;
-    line-height: 27px;
-}
-.tr td,th{
-    width: 25%;
-    height: 20%;
-    text-align: left;
-    font-family: Poppins;
-    font-style: normal;
-    color: #FFFFFF;
-    
-}
-
-/* FOOTER SECTION */
-
 
 
 
@@ -449,39 +258,6 @@ table.menuFooterContainer tr th,td{
 /*768px < Viewport < 1024px,
 3/4 of main viewport */
 @media only screen and (max-width:1024px){
-    /* NAV TEXT */
-    .topNav{
-        height: 75px;
-    }
-    .topNav ul li{
-        font-size: 18px;
-    }
-    .topNav .emptySpace25 .endeavourLogo{
-        width: 75px;
-        height: 75px;
-        padding: 0px 37.5px;
-    }
-    /*-- NAV TEXT --*/
-
-
-    /* INTRODUCTION */
-
-    .intro{
-        height: 544.5px;
-    }
-    .endeavourText{
-        font-size: 48px;
-        line-height: 55.5px;
-
-        letter-spacing: 0.795em;
-
-        margin-right: -0.795em;
-        text-align:right;
-    }
-    .endeavourTagline{
-        font-size: 27px;
-        line-height: 24px;
-    }
 
     /* CONTENT NAVIGATION */
     .contentNavigation{
@@ -531,26 +307,7 @@ table.menuFooterContainer tr th,td{
         line-height: 19.5px;
     }
 
-    /* FOOTER */
-    section.footer{
-        height: 312px;
-    }
-    .connectionFooterTwo .footerMainText{
-        font-size: 19.5px;
-        line-height: 22.5px;
-    }
-    .connectionFooterTwo .footerTagText{
-        font-size: 13.5px;
-        line-height: 20.25px;
-    }
-    .connectionFooterTwo .footerSocialIcons{
-        font-size: 15px;
-    }
-    table.menuFooterContainer tr th,td{
-        font-size: 13.5px;
-        line-height: 20.25px;
-    }
-    /* FOOTER */
+    
     
     
 }
@@ -558,39 +315,6 @@ table.menuFooterContainer tr th,td{
 
 
 @media only screen and (max-width:768px){
-    /* NAV TEXT */
-    .topNav{
-        height: 50px;
-    }
-    .topNav ul li{
-        font-size: 12px;
-    }
-    .topNav .emptySpace25 .endeavourLogo{
-        width: 50px;
-        height: 50px;
-        padding: 0px 25px;
-    }
-    /*-- NAV TEXT --*/
-
-
-    /* INTRODUCTION */
-    
-    .intro{
-        height: 363px;
-    }
-    .endeavourText{
-        font-size: 32px;
-        line-height: 37px;
-
-        letter-spacing: 0.795em;
-    
-        margin-right: -0.795em;
-        text-align:right;
-    }
-    .endeavourTagline{
-        font-size: 18px;
-        line-height: 16px;
-    }
 
     /* CONTENT NAVIGATION */
     .contentNavigation{
@@ -640,61 +364,12 @@ table.menuFooterContainer tr th,td{
         line-height: 13px;
     }
 
-    /* FOOTER */
-    section.footer{
-        height: 208px;
-    }
-    .connectionFooterTwo .footerMainText{
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .connectionFooterTwo .footerTagText{
-        font-size: 9px;
-        line-height: 13.5px;
-    }
-    .connectionFooterTwo .footerSocialIcons{
-        font-size: 10px;
-    }
-    table.menuFooterContainer tr th,td{
-        font-size: 9px;
-        line-height: 13.5px;
-    }
-    /* FOOTER */
 }
 
 /* Viewport less than 600px,
 1/4 of main viewport
 392px Changed to 600px*/ 
 @media only screen and (max-width:600px){
-
-    /* NAV TEXT */
-    .topNav{
-        height: 25px;
-    }
-    .topNav ul li{
-        font-size: 6px;
-    }
-    .topNav .emptySpace25 .endeavourLogo{
-        width: 25px;
-        height: 25px;
-        padding: 0px 12.5px;
-    }
-    /*-- NAV TEXT --*/
-
-
-    /* INTRODUCTION */
-    
-    .intro{
-        height: 181.5px;
-    }
-    .endeavourText{
-        font-size: 16px;
-        line-height: 18.5px;
-    }
-    .endeavourTagline{
-        font-size: 9px;
-        line-height: 8px;
-    }
 
     /* CONTENT NAVIGATION */
     .contentNavigation{
@@ -743,26 +418,5 @@ table.menuFooterContainer tr th,td{
         font-size: 3.5px;
         line-height: 6.5px;
     }
-
-    /* FOOTER */
-    section.footer{
-        height: 104px;
-    }
-    .connectionFooterTwo .footerMainText{
-        font-size: 6.5px;
-        line-height: 7.5px;
-    }
-    .connectionFooterTwo .footerTagText{
-        font-size: 4.5px;
-        line-height: 6.75px;
-    }
-    .connectionFooterTwo .footerSocialIcons{
-        font-size: 5px;
-    }
-    table.menuFooterContainer tr th,td{
-        font-size: 4.5px;
-        line-height: 6.75px;
-    }
-    /* FOOTER */
 
 }
