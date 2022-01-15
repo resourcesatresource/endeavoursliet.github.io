@@ -205,17 +205,17 @@ section.aboutReference{
     width: 100%;
     height: 384px;
 
-    background: url(../images/grey-papert-texture.png);
+    /* background: url(../images/grey-papert-texture.png);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
-    /* background: url(../images/about.png);
+    background: url(../images/about.png);
     background-size: 100% 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
-    background: linear-gradient(270deg, #000000 21.08%, rgba(0, 0, 0, 0) 54.17%), url(../images/grey-papert-texture.png);
+    /* background: linear-gradient(270deg, #000000 21.08%, rgba(0, 0, 0, 0) 54.17%), url(../images/grey-papert-texture.png); */
 
 }
 .imageShowCase{
@@ -560,14 +560,11 @@ section.footer{
     width: 45%;
     height: 100%;
     background: #A00000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 .connectionFooter .connectionFooterOne{
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 35%;
     display: flex;
     justify-content: center;
     align-items: right;
@@ -575,20 +572,19 @@ section.footer{
 
 }
 .endeavourLogoFooter{
-    height: 30%;
+    height: 100%;
     width: 100%;
 }
 .endeavourLogoFooter img{
-    width: auto;
     height: 100%;
-    padding: 0px 50px;
+    width: auto;
 }
 .connectionFooter .connectionFooterTwo{
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 25%;
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     flex-direction: column;
 }
 .connectionFooterTwo .footerMainText{
@@ -1123,4 +1119,11 @@ table.menuFooterContainer tr th,td{
 }
 .flex-right{
     align-items: right;
+}
+.flex-column-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
 }
