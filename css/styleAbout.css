@@ -89,7 +89,7 @@
 }
 .tree{
 
-  margin-top: 40px;
+  /* margin-top: 40px; */
   width: 90%;
   max-width: 1100px;;
   justify-content: center;
@@ -100,9 +100,9 @@
   height: 80px;
   width : 400px;
   background: white;
-
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 0 auto;
-  border-radius: 0 0 15px 15px;
+  border-radius: 2px  15px 2px 15px;
   text-align: center;
   color: white;
   display: flex;
@@ -125,7 +125,7 @@
   width : 2%;
   max-width: 13px;
   background-color: var(--richb);
-  border-radius: 10px;
+  /* border-radius: 10px; */
 
 }
 .left{
@@ -133,7 +133,7 @@
   padding-bottom: 60px;
 
   /* Saujay */
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  /*  */
 
 }
 .right{
