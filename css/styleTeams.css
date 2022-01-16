@@ -39,7 +39,9 @@ body{
     z-index: 1;
 }
 
-
+.faculty-section{
+	height: 55vh;
+}
 .team-section{
 	min-height: 100vh;
 	padding:70px 15px 30px;
